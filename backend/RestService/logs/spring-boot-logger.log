@@ -1,0 +1,1106 @@
+2020-07-20 10:30:41,255 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-20 10:30:41,472 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-07-20 10:30:41,606 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [main] 8 mappings in 'requestMappingHandlerMapping'
+2020-07-20 10:30:41,690 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-07-20 10:30:41,740 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-07-20 10:32:09,929 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-20 10:32:10,166 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-07-20 10:32:10,310 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [main] 8 mappings in 'requestMappingHandlerMapping'
+2020-07-20 10:32:10,363 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-07-20 10:32:10,391 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-07-20 10:33:11,235 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2020-07-20 10:33:11,263 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Detected StandardServletMultipartResolver
+2020-07-20 10:33:11,404 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-07-20 10:33:11,405 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 153 ms
+2020-07-20 10:33:11,450 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-2] GET "/api/v1/person/", parameters={}
+2020-07-20 10:33:11,482 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-2] Mapped to com.example.RestService.api.CarController#getAllPeople()
+2020-07-20 10:33:12,125 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-2] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 10:33:12,128 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-2] Writing [[com.example.RestService.model.Person@4815992b, com.example.RestService.model.Person@5ef23152]]
+2020-07-20 10:33:12,342 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed 200 OK
+2020-07-20 10:53:18,735 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-20 10:53:19,086 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-07-20 10:53:19,259 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [main] 8 mappings in 'requestMappingHandlerMapping'
+2020-07-20 10:53:19,321 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-07-20 10:53:19,348 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-07-20 10:53:45,868 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-3] Initializing Servlet 'dispatcherServlet'
+2020-07-20 10:53:45,930 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-3] Detected StandardServletMultipartResolver
+2020-07-20 10:53:46,113 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-3] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-07-20 10:53:46,115 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-3] Completed initialization in 212 ms
+2020-07-20 10:53:46,169 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-3] DELETE "/api/v1/person/868235", parameters={}
+2020-07-20 10:53:46,202 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-3] Mapped to com.example.RestService.api.CarController#deletePersonById(int)
+2020-07-20 10:53:46,875 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-3] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 10:53:46,876 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-3] Nothing to write: null body
+2020-07-20 10:53:46,884 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-3] Completed 200 OK
+2020-07-20 10:53:50,993 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-1] DELETE "/api/v1/person/868235", parameters={}
+2020-07-20 10:53:50,996 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-1] Mapped to com.example.RestService.api.CarController#deletePersonById(int)
+2020-07-20 10:53:51,017 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-1] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 10:53:51,019 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-1] Nothing to write: null body
+2020-07-20 10:53:51,020 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed 200 OK
+2020-07-20 10:53:53,865 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-4] DELETE "/api/v1/person/868235", parameters={}
+2020-07-20 10:53:53,868 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-4] Mapped to com.example.RestService.api.CarController#deletePersonById(int)
+2020-07-20 10:53:53,879 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-4] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 10:53:53,880 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-4] Nothing to write: null body
+2020-07-20 10:53:53,882 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-4] Completed 200 OK
+2020-07-20 10:53:58,257 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-5] GET "/api/v1/person/", parameters={}
+2020-07-20 10:53:58,261 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-5] Mapped to com.example.RestService.api.CarController#getAllPeople()
+2020-07-20 10:53:58,322 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-5] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 10:53:58,324 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-5] Writing [[com.example.RestService.model.Person@37d6c39f]]
+2020-07-20 10:53:58,474 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-5] Completed 200 OK
+2020-07-20 10:55:43,926 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-7] GET "/api/v1/person/868235", parameters={}
+2020-07-20 10:55:44,067 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-7] Mapped to com.example.RestService.api.CarController#getPersonById(int)
+2020-07-20 10:55:44,714 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-7] Failed to complete request: org.springframework.dao.EmptyResultDataAccessException: Incorrect result size: expected 1, actual 0
+2020-07-20 10:55:44,778 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-7] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.EmptyResultDataAccessException: Incorrect result size: expected 1, actual 0] with root cause
+org.springframework.dao.EmptyResultDataAccessException: Incorrect result size: expected 1, actual 0
+	at org.springframework.dao.support.DataAccessUtils.nullableSingleResult(DataAccessUtils.java:97)
+	at org.springframework.jdbc.core.JdbcTemplate.queryForObject(JdbcTemplate.java:784)
+	at com.example.RestService.dao.CarDataAccessService.selectPersonById(CarDataAccessService.java:73)
+	at com.example.RestService.dao.CarDataAccessService$$FastClassBySpringCGLIB$$6bb7872d.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.example.RestService.dao.CarDataAccessService$$EnhancerBySpringCGLIB$$6823892.selectPersonById(<generated>)
+	at com.example.RestService.service.CarService.getPersonById(CarService.java:33)
+	at com.example.RestService.api.CarController.getPersonById(CarController.java:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-07-20 10:55:44,838 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-7] "ERROR" dispatch for GET "/error", parameters={}
+2020-07-20 10:55:44,869 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-7] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2020-07-20 10:55:44,988 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-7] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 10:55:44,993 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-7] Writing [{timestamp=Mon Jul 20 10:55:44 EEST 2020, status=500, error=Internal Server Error, message=, path=/a (truncated)...]
+2020-07-20 10:55:45,076 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-7] Exiting from "ERROR" dispatch, status 500
+2020-07-20 10:56:08,210 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-9] GET "/api/v1/person/", parameters={}
+2020-07-20 10:56:08,213 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-9] Mapped to com.example.RestService.api.CarController#getAllPeople()
+2020-07-20 10:56:08,238 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-9] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 10:56:08,239 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-9] Writing [[com.example.RestService.model.Person@1b5c424f]]
+2020-07-20 10:56:08,253 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-9] Completed 200 OK
+2020-07-20 10:56:16,124 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-2] GET "/api/v1/person/8682352", parameters={}
+2020-07-20 10:56:16,128 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-2] Mapped to com.example.RestService.api.CarController#getPersonById(int)
+2020-07-20 10:56:16,170 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-2] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 10:56:16,172 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-2] Writing [com.example.RestService.model.Person@6211fe4a]
+2020-07-20 10:56:16,202 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed 200 OK
+2020-07-20 10:59:19,935 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-20 10:59:20,163 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-07-20 10:59:20,307 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [main] 8 mappings in 'requestMappingHandlerMapping'
+2020-07-20 10:59:20,354 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-07-20 10:59:20,378 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-07-20 10:59:26,426 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2020-07-20 10:59:26,430 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Detected StandardServletMultipartResolver
+2020-07-20 10:59:26,466 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-07-20 10:59:26,469 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 40 ms
+2020-07-20 10:59:26,522 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-2] GET "/api/v1/person/8682352", parameters={}
+2020-07-20 10:59:26,538 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-2] Mapped to com.example.RestService.api.CarController#getPersonById(int)
+2020-07-20 10:59:26,911 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-2] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 10:59:26,913 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-2] Writing [com.example.RestService.model.Person@241a04a6]
+2020-07-20 10:59:26,961 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed 200 OK
+2020-07-20 10:59:32,101 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-3] GET "/api/v1/person/868235", parameters={}
+2020-07-20 10:59:32,107 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-3] Mapped to com.example.RestService.api.CarController#getPersonById(int)
+2020-07-20 10:59:32,137 ERROR com.example.RestService.api.CarController [http-nio-8080-exec-3] Can't find user with id 868235
+2020-07-20 10:59:32,141 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-3] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 10:59:32,144 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-3] Nothing to write: null body
+2020-07-20 10:59:32,145 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-3] Completed 200 OK
+2020-07-20 11:52:04,381 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-20 11:52:04,596 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-07-20 11:52:04,726 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [main] 8 mappings in 'requestMappingHandlerMapping'
+2020-07-20 11:52:04,779 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-07-20 11:52:04,802 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-07-20 11:52:13,574 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-07-20 11:52:13,576 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected StandardServletMultipartResolver
+2020-07-20 11:52:13,598 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-07-20 11:52:13,599 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 23 ms
+2020-07-20 11:52:13,625 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-1] GET "/api/v1/person/", parameters={}
+2020-07-20 11:52:13,639 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-1] Mapped to com.example.RestService.api.CarController#getAllPeople()
+2020-07-20 11:52:13,898 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-1] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 11:52:13,900 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-1] Writing [[com.example.RestService.model.Person@7589d515]]
+2020-07-20 11:52:14,019 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed 200 OK
+2020-07-20 11:52:19,875 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-3] POST "/api/v1/person", parameters={}
+2020-07-20 11:52:19,877 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-3] Mapped to com.example.RestService.api.CarController#addPerson(Person)
+2020-07-20 11:52:19,992 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-3] Read "application/json;charset=UTF-8" to [com.example.RestService.model.Person@2893a9b6]
+2020-07-20 11:52:20,052 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-8080-exec-3] Using @ExceptionHandler com.example.RestService.exception.ApiExceptionHandler#handleApiRequestException(ApiRequestException, WebRequest)
+2020-07-20 11:52:20,077 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-3] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 11:52:20,078 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-3] Writing [com.example.RestService.exception.ApiException@7aa7a3dc]
+2020-07-20 11:52:20,090 DEBUG org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-3] Resolved [com.example.RestService.exception.ApiRequestException: KS7320 already is in database]
+2020-07-20 11:52:20,092 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-3] Completed 400 BAD_REQUEST
+2020-07-20 11:52:29,531 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-5] POST "/api/v1/person", parameters={}
+2020-07-20 11:52:29,533 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-5] Mapped to com.example.RestService.api.CarController#addPerson(Person)
+2020-07-20 11:52:29,542 DEBUG org.springframework.web.method.support.InvocableHandlerMethod [http-nio-8080-exec-5] Could not resolve parameter [0] in public void com.example.RestService.api.CarController.addPerson(com.example.RestService.model.Person): JSON parse error: Numeric value (8682354442) out of range of int (-2147483648 - 2147483647); nested exception is com.fasterxml.jackson.databind.JsonMappingException: Numeric value (8682354442) out of range of int (-2147483648 - 2147483647)
+ at [Source: (PushbackInputStream); line: 2, column: 21] (through reference chain: com.example.RestService.model.Person["id"])
+2020-07-20 11:52:29,544 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-5] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Numeric value (8682354442) out of range of int (-2147483648 - 2147483647); nested exception is com.fasterxml.jackson.databind.JsonMappingException: Numeric value (8682354442) out of range of int (-2147483648 - 2147483647)
+ at [Source: (PushbackInputStream); line: 2, column: 21] (through reference chain: com.example.RestService.model.Person["id"])]
+2020-07-20 11:52:29,546 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-5] Completed 400 BAD_REQUEST
+2020-07-20 11:52:29,562 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-5] "ERROR" dispatch for POST "/error", parameters={}
+2020-07-20 11:52:29,567 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-5] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2020-07-20 11:52:29,578 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-5] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 11:52:29,579 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-5] Writing [{timestamp=Mon Jul 20 11:52:29 EEST 2020, status=400, error=Bad Request, message=, path=/api/v1/pers (truncated)...]
+2020-07-20 11:52:29,593 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-5] Exiting from "ERROR" dispatch, status 400
+2020-07-20 11:52:39,406 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-7] POST "/api/v1/person", parameters={}
+2020-07-20 11:52:39,408 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-7] Mapped to com.example.RestService.api.CarController#addPerson(Person)
+2020-07-20 11:52:39,411 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-7] Read "application/json;charset=UTF-8" to [com.example.RestService.model.Person@47185df0]
+2020-07-20 11:52:39,423 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-8080-exec-7] Using @ExceptionHandler com.example.RestService.exception.ApiExceptionHandler#handleApiRequestException(ApiRequestException, WebRequest)
+2020-07-20 11:52:39,426 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-7] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 11:52:39,427 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-7] Writing [com.example.RestService.exception.ApiException@49dfbb63]
+2020-07-20 11:52:39,434 DEBUG org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-7] Resolved [com.example.RestService.exception.ApiRequestException: KS7320 already is in database]
+2020-07-20 11:52:39,435 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-7] Completed 400 BAD_REQUEST
+2020-07-20 12:02:31,565 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-9] GET "/api/v1/person/", parameters={}
+2020-07-20 12:02:31,743 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-9] Mapped to com.example.RestService.api.CarController#getAllPeople()
+2020-07-20 12:02:31,967 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-9] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 12:02:31,977 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-9] Writing [[com.example.RestService.model.Person@527ac121]]
+2020-07-20 12:02:32,035 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-9] Completed 200 OK
+2020-07-20 12:02:39,800 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-10] POST "/api/v1/person", parameters={}
+2020-07-20 12:02:39,805 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-10] Mapped to com.example.RestService.api.CarController#addPerson(Person)
+2020-07-20 12:02:39,858 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-10] Read "application/json;charset=UTF-8" to [com.example.RestService.model.Person@16e6e416]
+2020-07-20 12:02:39,939 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-8080-exec-10] Using @ExceptionHandler com.example.RestService.exception.ApiExceptionHandler#handleApiRequestException(ApiRequestException, WebRequest)
+2020-07-20 12:02:39,958 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-10] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 12:02:39,959 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-10] Writing [com.example.RestService.exception.ApiException@182118ba]
+2020-07-20 12:02:39,973 DEBUG org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-10] Resolved [com.example.RestService.exception.ApiRequestException: KS7320 already is in database]
+2020-07-20 12:02:39,977 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-10] Completed 400 BAD_REQUEST
+2020-07-20 13:05:50,193 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-20 13:05:50,401 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-07-20 13:05:50,530 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [main] 8 mappings in 'requestMappingHandlerMapping'
+2020-07-20 13:05:50,579 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-07-20 13:05:50,601 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-07-20 13:06:01,414 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2020-07-20 13:06:01,416 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Detected StandardServletMultipartResolver
+2020-07-20 13:06:01,431 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-07-20 13:06:01,432 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 17 ms
+2020-07-20 13:06:01,458 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-2] POST "/api/v1/person", parameters={}
+2020-07-20 13:06:01,466 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-2] Mapped to com.example.RestService.api.CarController#addPerson(Person)
+2020-07-20 13:06:01,936 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-2] Read "application/json;charset=UTF-8" to [com.example.RestService.model.Person@72e0cb29]
+2020-07-20 13:06:02,019 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-8080-exec-2] Using @ExceptionHandler com.example.RestService.exception.ApiExceptionHandler#handleApiRequestException(ApiRequestException, WebRequest)
+2020-07-20 13:06:02,077 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-2] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 13:06:02,081 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-2] Writing [com.example.RestService.exception.ApiException@623b356e]
+2020-07-20 13:06:02,120 DEBUG org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [com.example.RestService.exception.ApiRequestException: KS7320 already is in database]
+2020-07-20 13:06:02,127 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed 400 BAD_REQUEST
+2020-07-20 13:06:08,355 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-5] POST "/api/v1/person", parameters={}
+2020-07-20 13:06:08,358 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-5] Mapped to com.example.RestService.api.CarController#addPerson(Person)
+2020-07-20 13:06:08,362 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-5] Read "application/json;charset=UTF-8" to [com.example.RestService.model.Person@514ed112]
+2020-07-20 13:06:08,379 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-5] Completed 201 CREATED
+2020-07-20 13:06:14,309 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-6] GET "/api/v1/person/", parameters={}
+2020-07-20 13:06:14,311 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-6] Mapped to com.example.RestService.api.CarController#getAllPeople()
+2020-07-20 13:06:14,336 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-6] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 13:06:14,338 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-6] Writing [[com.example.RestService.model.Person@233e0747, com.example.RestService.model.Person@17796663]]
+2020-07-20 13:06:14,360 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-6] Completed 200 OK
+2020-07-20 13:10:05,890 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-20 13:10:06,167 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-07-20 13:10:06,297 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [main] 8 mappings in 'requestMappingHandlerMapping'
+2020-07-20 13:10:06,343 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-07-20 13:10:06,367 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-07-20 13:10:12,815 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2020-07-20 13:10:12,817 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Detected StandardServletMultipartResolver
+2020-07-20 13:10:12,836 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-07-20 13:10:12,837 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 20 ms
+2020-07-20 13:10:12,861 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-2] GET "/api/v1/person/", parameters={}
+2020-07-20 13:10:12,871 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-2] Mapped to com.example.RestService.api.CarController#getAllPeople()
+2020-07-20 13:10:13,094 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-2] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 13:10:13,098 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-2] Writing [[com.example.RestService.model.Person@48401812, com.example.RestService.model.Person@54d7ff7e]]
+2020-07-20 13:10:13,198 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed 200 OK
+2020-07-20 13:10:26,007 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-3] GET "/api/v1/person/882442", parameters={}
+2020-07-20 13:10:26,011 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-3] Mapped to com.example.RestService.api.CarController#getPersonById(int)
+2020-07-20 13:10:26,063 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-3] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 13:10:26,063 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-3] Writing [com.example.RestService.model.Person@3ba7673e]
+2020-07-20 13:10:26,069 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-3] Completed 200 OK
+2020-07-20 13:10:47,039 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-4] PUT "/api/v1/person/updateRegistered/882442", parameters={}
+2020-07-20 13:10:47,043 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-4] Mapped to com.example.RestService.api.CarController#updateRegisteredById(int, Person)
+2020-07-20 13:10:47,142 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-4] Read "application/json;charset=UTF-8" to [com.example.RestService.model.Person@67c09dc7]
+2020-07-20 13:10:47,160 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-4] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 13:10:47,161 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-4] Nothing to write: null body
+2020-07-20 13:10:47,161 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-4] Completed 200 OK
+2020-07-20 13:10:51,699 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-5] GET "/api/v1/person/", parameters={}
+2020-07-20 13:10:51,702 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-5] Mapped to com.example.RestService.api.CarController#getAllPeople()
+2020-07-20 13:10:51,718 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-5] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 13:10:51,720 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-5] Writing [[com.example.RestService.model.Person@2b87c211, com.example.RestService.model.Person@25403911]]
+2020-07-20 13:10:51,726 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-5] Completed 200 OK
+2020-07-20 13:11:07,706 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-6] PUT "/api/v1/person/updateCar/882442", parameters={}
+2020-07-20 13:11:07,708 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-6] Mapped to com.example.RestService.api.CarController#updateCarNumById(int, Person)
+2020-07-20 13:11:07,713 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-6] Read "application/json;charset=UTF-8" to [com.example.RestService.model.Person@1e049551]
+2020-07-20 13:11:07,724 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-6] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 13:11:07,725 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-6] Nothing to write: null body
+2020-07-20 13:11:07,726 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-6] Completed 200 OK
+2020-07-20 13:11:09,787 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-7] GET "/api/v1/person/", parameters={}
+2020-07-20 13:11:09,792 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-7] Mapped to com.example.RestService.api.CarController#getAllPeople()
+2020-07-20 13:11:09,805 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-7] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 13:11:09,807 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-7] Writing [[com.example.RestService.model.Person@7e21452a, com.example.RestService.model.Person@70e6a49e]]
+2020-07-20 13:11:09,814 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-7] Completed 200 OK
+2020-07-20 13:12:48,484 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-20 13:12:48,762 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-07-20 13:12:48,921 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [main] 8 mappings in 'requestMappingHandlerMapping'
+2020-07-20 13:12:48,988 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-07-20 13:12:49,017 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-07-20 13:12:54,297 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-07-20 13:12:54,299 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected StandardServletMultipartResolver
+2020-07-20 13:12:54,318 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-07-20 13:12:54,319 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 20 ms
+2020-07-20 13:12:54,340 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-1] GET "/api/v1/person/", parameters={}
+2020-07-20 13:12:54,351 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-1] Mapped to com.example.RestService.api.CarController#getAllPeople()
+2020-07-20 13:12:54,574 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-1] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 13:12:54,577 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-1] Writing [[com.example.RestService.model.Person@5be91d5f, com.example.RestService.model.Person@70bd626c]]
+2020-07-20 13:12:54,735 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed 200 OK
+2020-07-20 13:12:59,768 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-3] PUT "/api/v1/person/updateCar/882442", parameters={}
+2020-07-20 13:12:59,783 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-3] Mapped to com.example.RestService.api.CarController#updateCarNumById(int, Person)
+2020-07-20 13:12:59,920 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-3] Read "application/json;charset=UTF-8" to [com.example.RestService.model.Person@1de0167a]
+2020-07-20 13:12:59,950 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-3] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 13:12:59,951 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-3] Nothing to write: null body
+2020-07-20 13:12:59,952 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-3] Completed 200 OK
+2020-07-20 13:13:04,549 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-4] GET "/api/v1/person/", parameters={}
+2020-07-20 13:13:04,551 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-4] Mapped to com.example.RestService.api.CarController#getAllPeople()
+2020-07-20 13:13:04,562 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-4] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 13:13:04,563 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-4] Writing [[com.example.RestService.model.Person@3d534eb9, com.example.RestService.model.Person@3394a763]]
+2020-07-20 13:13:04,568 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-4] Completed 200 OK
+2020-07-20 13:17:10,766 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-20 13:17:11,028 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-07-20 13:17:11,145 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [main] 8 mappings in 'requestMappingHandlerMapping'
+2020-07-20 13:17:11,190 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-07-20 13:17:11,211 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-07-20 13:17:19,121 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-07-20 13:17:19,123 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected StandardServletMultipartResolver
+2020-07-20 13:17:19,144 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-07-20 13:17:19,145 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 22 ms
+2020-07-20 13:17:19,169 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-1] GET "/api/v1/person/", parameters={}
+2020-07-20 13:17:19,181 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-1] Mapped to com.example.RestService.api.CarController#getAllPeople()
+2020-07-20 13:17:19,430 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-1] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 13:17:19,433 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-1] Writing [[com.example.RestService.model.Person@2165d9d8, com.example.RestService.model.Person@2fe14edb]]
+2020-07-20 13:17:19,594 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed 200 OK
+2020-07-20 13:17:27,117 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-3] PUT "/api/v1/person/updateCar/882442", parameters={}
+2020-07-20 13:17:27,122 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-3] Mapped to com.example.RestService.api.CarController#updateCarNumById(int, Person)
+2020-07-20 13:17:27,256 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-3] Read "application/json;charset=UTF-8" to [com.example.RestService.model.Person@2584ab02]
+2020-07-20 13:17:27,287 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-8080-exec-3] Using @ExceptionHandler com.example.RestService.exception.ApiExceptionHandler#handleApiRequestException(ApiRequestException, WebRequest)
+2020-07-20 13:17:27,309 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-3] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 13:17:27,310 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-3] Writing [com.example.RestService.exception.ApiException@28346589]
+2020-07-20 13:17:27,318 DEBUG org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-3] Resolved [com.example.RestService.exception.ApiRequestException: KS7320 already is in database]
+2020-07-20 13:17:27,319 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-3] Completed 400 BAD_REQUEST
+2020-07-20 13:21:12,740 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-5] GET "/api/v1/person/", parameters={}
+2020-07-20 13:21:12,810 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-5] Mapped to com.example.RestService.api.CarController#getAllPeople()
+2020-07-20 13:21:12,940 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-5] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 13:21:12,944 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-5] Writing [[com.example.RestService.model.Person@6f13191e, com.example.RestService.model.Person@61d4ea8c]]
+2020-07-20 13:21:12,989 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-5] Completed 200 OK
+2020-07-20 13:22:55,236 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-20 13:22:55,471 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-07-20 13:22:55,602 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [main] 8 mappings in 'requestMappingHandlerMapping'
+2020-07-20 13:22:55,653 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-07-20 13:22:55,679 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-07-20 13:23:04,946 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-07-20 13:23:04,948 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected StandardServletMultipartResolver
+2020-07-20 13:23:04,968 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-07-20 13:23:04,969 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 21 ms
+2020-07-20 13:23:04,991 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-1] PUT "/api/v1/person/updateCar/882442", parameters={}
+2020-07-20 13:23:05,003 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-1] Mapped to com.example.RestService.api.CarController#updateCarNumById(int, Person)
+2020-07-20 13:23:05,373 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-1] Read "application/json;charset=UTF-8" to [com.example.RestService.model.Person@5e64614f]
+2020-07-20 13:23:05,422 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-8080-exec-1] Using @ExceptionHandler com.example.RestService.exception.ApiExceptionHandler#handleApiRequestException(ApiRequestException, WebRequest)
+2020-07-20 13:23:05,471 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-1] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 13:23:05,473 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-1] Writing [com.example.RestService.exception.ApiException@5da0369a]
+2020-07-20 13:23:05,507 DEBUG org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-1] Resolved [com.example.RestService.exception.ApiRequestException: KS7320 already is in database]
+2020-07-20 13:23:05,514 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed 400 BAD_REQUEST
+2020-07-20 13:23:12,010 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-4] GET "/api/v1/person/", parameters={}
+2020-07-20 13:23:12,012 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-4] Mapped to com.example.RestService.api.CarController#getAllPeople()
+2020-07-20 13:23:12,034 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-4] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 13:23:12,035 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-4] Writing [[com.example.RestService.model.Person@2117bab3, com.example.RestService.model.Person@1671facc]]
+2020-07-20 13:23:12,049 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-4] Completed 302 FOUND
+2020-07-20 13:23:17,243 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-5] GET "/api/v1/person/882442", parameters={}
+2020-07-20 13:23:17,245 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-5] Mapped to com.example.RestService.api.CarController#getPersonById(int)
+2020-07-20 13:23:17,280 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-5] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 13:23:17,281 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-5] Writing [com.example.RestService.model.Person@547a0714]
+2020-07-20 13:23:17,288 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-5] Completed 302 FOUND
+2020-07-20 13:25:32,939 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-8] GET "/api/v1/person/8824423", parameters={}
+2020-07-20 13:25:33,043 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-8] Mapped to com.example.RestService.api.CarController#getPersonById(int)
+2020-07-20 13:25:33,452 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-8] Failed to complete request: org.springframework.dao.EmptyResultDataAccessException: Incorrect result size: expected 1, actual 0
+2020-07-20 13:25:33,605 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-8] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.EmptyResultDataAccessException: Incorrect result size: expected 1, actual 0] with root cause
+org.springframework.dao.EmptyResultDataAccessException: Incorrect result size: expected 1, actual 0
+	at org.springframework.dao.support.DataAccessUtils.nullableSingleResult(DataAccessUtils.java:97)
+	at org.springframework.jdbc.core.JdbcTemplate.queryForObject(JdbcTemplate.java:784)
+	at com.example.RestService.dao.CarDataAccessService.selectPersonById(CarDataAccessService.java:73)
+	at com.example.RestService.dao.CarDataAccessService$$FastClassBySpringCGLIB$$6bb7872d.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.example.RestService.dao.CarDataAccessService$$EnhancerBySpringCGLIB$$ec5ff322.selectPersonById(<generated>)
+	at com.example.RestService.service.CarService.getPersonById(CarService.java:37)
+	at com.example.RestService.api.CarController.getPersonById(CarController.java:45)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-07-20 13:25:33,662 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-8] "ERROR" dispatch for GET "/error", parameters={}
+2020-07-20 13:25:33,727 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-8] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2020-07-20 13:25:33,878 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-8] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 13:25:33,881 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-8] Writing [{timestamp=Mon Jul 20 13:25:33 EEST 2020, status=500, error=Internal Server Error, message=, path=/a (truncated)...]
+2020-07-20 13:25:33,939 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-8] Exiting from "ERROR" dispatch, status 500
+2020-07-20 13:35:39,830 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-20 13:35:40,180 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-07-20 13:35:40,337 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [main] 8 mappings in 'requestMappingHandlerMapping'
+2020-07-20 13:35:40,415 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-07-20 13:35:40,444 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-07-20 13:35:45,133 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-07-20 13:35:45,135 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected StandardServletMultipartResolver
+2020-07-20 13:35:45,153 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-07-20 13:35:45,155 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 21 ms
+2020-07-20 13:35:45,177 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-1] GET "/api/v1/person/8824423", parameters={}
+2020-07-20 13:35:45,188 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-1] Mapped to com.example.RestService.api.CarController#getPersonById(int)
+2020-07-20 13:35:45,452 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-8080-exec-1] Using @ExceptionHandler com.example.RestService.exception.ApiExceptionHandler#handleApiRequestException(ApiRequestException, WebRequest)
+2020-07-20 13:35:45,571 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-1] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 13:35:45,573 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-1] Writing [com.example.RestService.exception.ApiException@59d86998]
+2020-07-20 13:35:45,620 DEBUG org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-1] Resolved [com.example.RestService.exception.ApiRequestException: User 8824423 not found in database]
+2020-07-20 13:35:45,627 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed 400 BAD_REQUEST
+2020-07-20 13:36:32,780 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-4] POST "/api/v1/person", parameters={}
+2020-07-20 13:36:32,856 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-4] Mapped to com.example.RestService.api.CarController#addPerson(Person)
+2020-07-20 13:36:33,420 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-4] Read "application/json;charset=UTF-8" to [com.example.RestService.model.Person@53b7de37]
+2020-07-20 13:36:34,254 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-4] Failed to complete request: org.springframework.dao.DuplicateKeyException: PreparedStatementCallback; SQL [INSERT INTO person (id, carNum, registered) VALUES (?, ?, ?)]; ERROR: duplicate key value violates unique constraint "person_pkey"
+  Detail: Key (id)=(882442) already exists.; nested exception is org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "person_pkey"
+  Detail: Key (id)=(882442) already exists.
+2020-07-20 13:36:34,277 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-4] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DuplicateKeyException: PreparedStatementCallback; SQL [INSERT INTO person (id, carNum, registered) VALUES (?, ?, ?)]; ERROR: duplicate key value violates unique constraint "person_pkey"
+  Detail: Key (id)=(882442) already exists.; nested exception is org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "person_pkey"
+  Detail: Key (id)=(882442) already exists.] with root cause
+org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "person_pkey"
+  Detail: Key (id)=(882442) already exists.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2532)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2267)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:312)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:448)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:369)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:153)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:119)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.springframework.jdbc.core.JdbcTemplate.lambda$update$0(JdbcTemplate.java:867)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:617)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:862)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:917)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:927)
+	at com.example.RestService.dao.CarDataAccessService.insertPerson(CarDataAccessService.java:38)
+	at com.example.RestService.dao.CarDataAccessService$$FastClassBySpringCGLIB$$6bb7872d.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.example.RestService.dao.CarDataAccessService$$EnhancerBySpringCGLIB$$e5f4484e.insertPerson(<generated>)
+	at com.example.RestService.service.CarService.addPerson(CarService.java:31)
+	at com.example.RestService.api.CarController.addPerson(CarController.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-07-20 13:36:34,306 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-4] "ERROR" dispatch for POST "/error", parameters={}
+2020-07-20 13:36:34,318 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-4] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2020-07-20 13:36:34,359 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-4] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 13:36:34,361 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-4] Writing [{timestamp=Mon Jul 20 13:36:34 EEST 2020, status=500, error=Internal Server Error, message=, path=/a (truncated)...]
+2020-07-20 13:36:34,399 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-4] Exiting from "ERROR" dispatch, status 500
+2020-07-20 13:36:43,159 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-9] GET "/api/v1/person/", parameters={}
+2020-07-20 13:36:43,163 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-9] Mapped to com.example.RestService.api.CarController#getAllPeople()
+2020-07-20 13:36:43,232 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-9] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 13:36:43,234 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-9] Writing [[com.example.RestService.model.Person@30d8269b, com.example.RestService.model.Person@68325076]]
+2020-07-20 13:36:43,252 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-9] Completed 302 FOUND
+2020-07-20 13:40:33,856 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-7] POST "/api/v1/person", parameters={}
+2020-07-20 13:40:33,960 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-7] Mapped to com.example.RestService.api.CarController#addPerson(Person)
+2020-07-20 13:40:34,095 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-7] Read "application/json;charset=UTF-8" to [com.example.RestService.model.Person@50bca280]
+2020-07-20 13:40:34,277 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-7] Failed to complete request: org.springframework.dao.DuplicateKeyException: PreparedStatementCallback; SQL [INSERT INTO person (id, carNum, registered) VALUES (?, ?, ?)]; ERROR: duplicate key value violates unique constraint "person_pkey"
+  Detail: Key (id)=(882442) already exists.; nested exception is org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "person_pkey"
+  Detail: Key (id)=(882442) already exists.
+2020-07-20 13:40:34,305 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-7] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DuplicateKeyException: PreparedStatementCallback; SQL [INSERT INTO person (id, carNum, registered) VALUES (?, ?, ?)]; ERROR: duplicate key value violates unique constraint "person_pkey"
+  Detail: Key (id)=(882442) already exists.; nested exception is org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "person_pkey"
+  Detail: Key (id)=(882442) already exists.] with root cause
+org.postgresql.util.PSQLException: ERROR: duplicate key value violates unique constraint "person_pkey"
+  Detail: Key (id)=(882442) already exists.
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2532)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2267)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:312)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:448)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:369)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:153)
+	at org.postgresql.jdbc.PgPreparedStatement.executeUpdate(PgPreparedStatement.java:119)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.springframework.jdbc.core.JdbcTemplate.lambda$update$0(JdbcTemplate.java:867)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:617)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:862)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:917)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:927)
+	at com.example.RestService.dao.CarDataAccessService.insertPerson(CarDataAccessService.java:38)
+	at com.example.RestService.dao.CarDataAccessService$$FastClassBySpringCGLIB$$6bb7872d.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.example.RestService.dao.CarDataAccessService$$EnhancerBySpringCGLIB$$e5f4484e.insertPerson(<generated>)
+	at com.example.RestService.service.CarService.addPerson(CarService.java:31)
+	at com.example.RestService.api.CarController.addPerson(CarController.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-07-20 13:40:34,325 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-7] "ERROR" dispatch for POST "/error", parameters={}
+2020-07-20 13:40:34,337 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-7] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2020-07-20 13:40:34,380 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-7] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 13:40:34,394 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-7] Writing [{timestamp=Mon Jul 20 13:40:34 EEST 2020, status=500, error=Internal Server Error, message=, path=/a (truncated)...]
+2020-07-20 13:40:34,420 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-7] Exiting from "ERROR" dispatch, status 500
+2020-07-20 14:03:00,518 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-20 14:03:00,836 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-07-20 14:03:00,970 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [main] 8 mappings in 'requestMappingHandlerMapping'
+2020-07-20 14:03:01,019 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-07-20 14:03:01,044 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-07-20 14:03:07,207 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-07-20 14:03:07,209 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected StandardServletMultipartResolver
+2020-07-20 14:03:07,231 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-07-20 14:03:07,232 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 24 ms
+2020-07-20 14:03:07,261 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-1] POST "/api/v1/person", parameters={}
+2020-07-20 14:03:07,272 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-1] Mapped to com.example.RestService.api.CarController#addPerson(Person)
+2020-07-20 14:03:07,684 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-1] Read "application/json;charset=UTF-8" to [com.example.RestService.model.Person@2c3ab9a4]
+2020-07-20 14:03:07,951 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Failed to complete request: java.lang.IllegalStateException: User 882442 already exists in database
+2020-07-20 14:03:07,972 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalStateException: User 882442 already exists in database] with root cause
+java.lang.IllegalStateException: User 882442 already exists in database
+	at com.example.RestService.service.CarService.addPerson(CarService.java:35)
+	at com.example.RestService.api.CarController.addPerson(CarController.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-07-20 14:03:07,988 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-1] "ERROR" dispatch for POST "/error", parameters={}
+2020-07-20 14:03:07,993 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-1] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2020-07-20 14:03:08,022 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-1] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 14:03:08,024 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-1] Writing [{timestamp=Mon Jul 20 14:03:07 EEST 2020, status=500, error=Internal Server Error, message=, path=/a (truncated)...]
+2020-07-20 14:03:08,067 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Exiting from "ERROR" dispatch, status 500
+2020-07-20 14:03:36,581 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-3] POST "/api/v1/person", parameters={}
+2020-07-20 14:03:36,650 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-3] Mapped to com.example.RestService.api.CarController#addPerson(Person)
+2020-07-20 14:03:36,743 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-3] Read "application/json;charset=UTF-8" to [com.example.RestService.model.Person@318124bc]
+2020-07-20 14:03:36,828 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-3] Completed 201 CREATED
+2020-07-20 14:03:38,961 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-5] POST "/api/v1/person", parameters={}
+2020-07-20 14:03:38,964 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-5] Mapped to com.example.RestService.api.CarController#addPerson(Person)
+2020-07-20 14:03:38,968 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-5] Read "application/json;charset=UTF-8" to [com.example.RestService.model.Person@474c2638]
+2020-07-20 14:03:38,991 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-5] Failed to complete request: java.lang.IllegalStateException: Car number KS73200 already is in database
+2020-07-20 14:03:39,002 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-5] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalStateException: Car number KS73200 already is in database] with root cause
+java.lang.IllegalStateException: Car number KS73200 already is in database
+	at com.example.RestService.service.CarService.addPerson(CarService.java:28)
+	at com.example.RestService.api.CarController.addPerson(CarController.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-07-20 14:03:39,012 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-5] "ERROR" dispatch for POST "/error", parameters={}
+2020-07-20 14:03:39,021 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-5] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2020-07-20 14:03:39,044 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-5] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 14:03:39,049 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-5] Writing [{timestamp=Mon Jul 20 14:03:39 EEST 2020, status=500, error=Internal Server Error, message=, path=/a (truncated)...]
+2020-07-20 14:03:39,060 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-5] Exiting from "ERROR" dispatch, status 500
+2020-07-20 14:03:41,292 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-6] POST "/api/v1/person", parameters={}
+2020-07-20 14:03:41,294 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-6] Mapped to com.example.RestService.api.CarController#addPerson(Person)
+2020-07-20 14:03:41,297 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-6] Read "application/json;charset=UTF-8" to [com.example.RestService.model.Person@4e1cbc90]
+2020-07-20 14:03:41,317 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-6] Failed to complete request: java.lang.IllegalStateException: Car number KS73200 already is in database
+2020-07-20 14:03:41,320 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-6] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalStateException: Car number KS73200 already is in database] with root cause
+java.lang.IllegalStateException: Car number KS73200 already is in database
+	at com.example.RestService.service.CarService.addPerson(CarService.java:28)
+	at com.example.RestService.api.CarController.addPerson(CarController.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-07-20 14:03:41,325 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-6] "ERROR" dispatch for POST "/error", parameters={}
+2020-07-20 14:03:41,327 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-6] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2020-07-20 14:03:41,331 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-6] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 14:03:41,333 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-6] Writing [{timestamp=Mon Jul 20 14:03:41 EEST 2020, status=500, error=Internal Server Error, message=, path=/a (truncated)...]
+2020-07-20 14:03:41,340 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-6] Exiting from "ERROR" dispatch, status 500
+2020-07-20 14:04:16,603 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-20 14:04:16,916 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-07-20 14:04:17,115 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [main] 8 mappings in 'requestMappingHandlerMapping'
+2020-07-20 14:04:17,185 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-07-20 14:04:17,215 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-07-20 14:04:22,555 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2020-07-20 14:04:22,557 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Detected StandardServletMultipartResolver
+2020-07-20 14:04:22,576 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-07-20 14:04:22,577 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 20 ms
+2020-07-20 14:04:22,605 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-2] POST "/api/v1/person", parameters={}
+2020-07-20 14:04:22,614 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-2] Mapped to com.example.RestService.api.CarController#addPerson(Person)
+2020-07-20 14:04:22,979 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-2] Read "application/json;charset=UTF-8" to [com.example.RestService.model.Person@ecd1938]
+2020-07-20 14:04:23,058 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-8080-exec-2] Using @ExceptionHandler com.example.RestService.exception.ApiExceptionHandler#handleApiRequestException(ApiRequestException, WebRequest)
+2020-07-20 14:04:23,110 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-2] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 14:04:23,113 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-2] Writing [com.example.RestService.exception.ApiException@619579aa]
+2020-07-20 14:04:23,152 DEBUG org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [com.example.RestService.exception.ApiRequestException: Car number KS73200 already is in database]
+2020-07-20 14:04:23,159 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed 400 BAD_REQUEST
+2020-07-20 14:04:34,982 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-4] POST "/api/v1/person", parameters={}
+2020-07-20 14:04:34,984 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-4] Mapped to com.example.RestService.api.CarController#addPerson(Person)
+2020-07-20 14:04:34,986 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-4] Read "application/json;charset=UTF-8" to [com.example.RestService.model.Person@31f28e4e]
+2020-07-20 14:04:35,176 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-8080-exec-4] Using @ExceptionHandler com.example.RestService.exception.ApiExceptionHandler#handleApiRequestException(ApiRequestException, WebRequest)
+2020-07-20 14:04:35,178 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-4] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 14:04:35,179 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-4] Writing [com.example.RestService.exception.ApiException@7543bb2]
+2020-07-20 14:04:35,184 DEBUG org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-4] Resolved [com.example.RestService.exception.ApiRequestException: User 8824242 already exists in database]
+2020-07-20 14:04:35,186 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-4] Completed 400 BAD_REQUEST
+2020-07-20 14:04:37,987 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-6] POST "/api/v1/person", parameters={}
+2020-07-20 14:04:37,989 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-6] Mapped to com.example.RestService.api.CarController#addPerson(Person)
+2020-07-20 14:04:37,991 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-6] Read "application/json;charset=UTF-8" to [com.example.RestService.model.Person@7b3fa12b]
+2020-07-20 14:04:38,010 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-8080-exec-6] Using @ExceptionHandler com.example.RestService.exception.ApiExceptionHandler#handleApiRequestException(ApiRequestException, WebRequest)
+2020-07-20 14:04:38,012 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-6] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 14:04:38,013 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-6] Writing [com.example.RestService.exception.ApiException@75f8403c]
+2020-07-20 14:04:38,019 DEBUG org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-6] Resolved [com.example.RestService.exception.ApiRequestException: User 8824242 already exists in database]
+2020-07-20 14:04:38,021 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-6] Completed 400 BAD_REQUEST
+2020-07-20 14:04:54,959 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-8] DELETE "/api/v1/person/868235", parameters={}
+2020-07-20 14:04:54,964 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-8] Mapped to com.example.RestService.api.CarController#deletePersonById(int)
+2020-07-20 14:04:55,003 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-8] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 14:04:55,004 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-8] Nothing to write: null body
+2020-07-20 14:04:55,008 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-8] Completed 200 OK
+2020-07-20 14:04:57,150 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-9] DELETE "/api/v1/person/868235", parameters={}
+2020-07-20 14:04:57,153 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-9] Mapped to com.example.RestService.api.CarController#deletePersonById(int)
+2020-07-20 14:04:57,168 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-9] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 14:04:57,170 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-9] Nothing to write: null body
+2020-07-20 14:04:57,172 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-9] Completed 200 OK
+2020-07-20 14:08:07,295 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-20 14:08:07,553 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-07-20 14:08:07,708 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [main] 8 mappings in 'requestMappingHandlerMapping'
+2020-07-20 14:08:07,764 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-07-20 14:08:07,795 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-07-20 14:09:22,645 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-20 14:09:22,963 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-07-20 14:09:23,101 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [main] 8 mappings in 'requestMappingHandlerMapping'
+2020-07-20 14:09:23,153 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-07-20 14:09:23,182 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-07-20 14:09:26,296 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-07-20 14:09:26,299 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected StandardServletMultipartResolver
+2020-07-20 14:09:26,317 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-07-20 14:09:26,318 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 20 ms
+2020-07-20 14:09:26,344 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-1] GET "/api/v1/person/", parameters={}
+2020-07-20 14:09:26,356 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-1] Mapped to com.example.RestService.api.CarController#getAllPeople()
+2020-07-20 14:09:26,618 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-1] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 14:09:26,621 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-1] Writing [[com.example.RestService.model.Person@7b437d24, com.example.RestService.model.Person@151b5b32, com.e (truncated)...]
+2020-07-20 14:09:26,766 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed 302 FOUND
+2020-07-20 14:09:33,344 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-3] DELETE "/api/v1/person/868235", parameters={}
+2020-07-20 14:09:33,347 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-3] Mapped to com.example.RestService.api.CarController#deletePersonById(int)
+2020-07-20 14:09:33,401 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-3] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 14:09:33,402 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-3] Nothing to write: null body
+2020-07-20 14:09:33,403 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-3] Completed 200 OK
+2020-07-20 14:09:39,157 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-4] POST "/api/v1/person", parameters={}
+2020-07-20 14:09:39,159 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-4] Mapped to com.example.RestService.api.CarController#addPerson(Person)
+2020-07-20 14:09:39,255 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-4] Read "application/json;charset=UTF-8" to [com.example.RestService.model.Person@764c3caf]
+2020-07-20 14:09:39,294 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-8080-exec-4] Using @ExceptionHandler com.example.RestService.exception.ApiExceptionHandler#handleApiRequestException(ApiRequestException, WebRequest)
+2020-07-20 14:09:39,312 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-4] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 14:09:39,313 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-4] Writing [com.example.RestService.exception.ApiException@6ccd49f1]
+2020-07-20 14:09:39,319 DEBUG org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-4] Resolved [com.example.RestService.exception.ApiRequestException: User 8824242 already exists in database]
+2020-07-20 14:09:39,320 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-4] Completed 400 BAD_REQUEST
+2020-07-20 14:09:50,272 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-6] POST "/api/v1/person", parameters={}
+2020-07-20 14:09:50,275 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-6] Mapped to com.example.RestService.api.CarController#addPerson(Person)
+2020-07-20 14:09:50,277 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-6] Read "application/json;charset=UTF-8" to [com.example.RestService.model.Person@669ed50b]
+2020-07-20 14:09:50,296 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-6] Completed 201 CREATED
+2020-07-20 14:09:52,074 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-8] POST "/api/v1/person", parameters={}
+2020-07-20 14:09:52,076 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-8] Mapped to com.example.RestService.api.CarController#addPerson(Person)
+2020-07-20 14:09:52,079 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-8] Read "application/json;charset=UTF-8" to [com.example.RestService.model.Person@2750a2f1]
+2020-07-20 14:09:52,094 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-8080-exec-8] Using @ExceptionHandler com.example.RestService.exception.ApiExceptionHandler#handleApiRequestException(ApiRequestException, WebRequest)
+2020-07-20 14:09:52,096 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-8] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 14:09:52,097 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-8] Writing [com.example.RestService.exception.ApiException@2997586b]
+2020-07-20 14:09:52,099 DEBUG org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-8] Resolved [com.example.RestService.exception.ApiRequestException: Car number KS already is in database]
+2020-07-20 14:09:52,100 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-8] Completed 400 BAD_REQUEST
+2020-07-20 14:09:59,470 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-9] POST "/api/v1/person", parameters={}
+2020-07-20 14:09:59,473 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-9] Mapped to com.example.RestService.api.CarController#addPerson(Person)
+2020-07-20 14:09:59,477 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-9] Read "application/json;charset=UTF-8" to [com.example.RestService.model.Person@4e0b88da]
+2020-07-20 14:09:59,498 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-8080-exec-9] Using @ExceptionHandler com.example.RestService.exception.ApiExceptionHandler#handleApiRequestException(ApiRequestException, WebRequest)
+2020-07-20 14:09:59,501 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-9] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 14:09:59,503 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-9] Writing [com.example.RestService.exception.ApiException@40cc6f6b]
+2020-07-20 14:09:59,509 DEBUG org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-9] Resolved [com.example.RestService.exception.ApiRequestException: User 88 already exists in database]
+2020-07-20 14:09:59,509 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-9] Completed 400 BAD_REQUEST
+2020-07-20 14:10:03,931 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-2] POST "/api/v1/person", parameters={}
+2020-07-20 14:10:03,935 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-2] Mapped to com.example.RestService.api.CarController#addPerson(Person)
+2020-07-20 14:10:03,946 DEBUG org.springframework.web.method.support.InvocableHandlerMethod [http-nio-8080-exec-2] Could not resolve parameter [0] in public void com.example.RestService.api.CarController.addPerson(com.example.RestService.model.Person): JSON parse error: Unexpected character ('j' (code 106)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('j' (code 106)): was expecting comma to separate Object entries
+ at [Source: (PushbackInputStream); line: 2, column: 14]
+2020-07-20 14:10:03,958 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('j' (code 106)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('j' (code 106)): was expecting comma to separate Object entries
+ at [Source: (PushbackInputStream); line: 2, column: 14]]
+2020-07-20 14:10:03,960 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed 400 BAD_REQUEST
+2020-07-20 14:10:03,977 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-2] "ERROR" dispatch for POST "/error", parameters={}
+2020-07-20 14:10:03,986 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-2] Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2020-07-20 14:10:04,003 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-2] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 14:10:04,004 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-2] Writing [{timestamp=Mon Jul 20 14:10:03 EEST 2020, status=400, error=Bad Request, message=, path=/api/v1/pers (truncated)...]
+2020-07-20 14:10:04,025 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Exiting from "ERROR" dispatch, status 400
+2020-07-20 14:10:19,785 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-3] POST "/api/v1/person", parameters={}
+2020-07-20 14:10:19,790 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-3] Mapped to com.example.RestService.api.CarController#addPerson(Person)
+2020-07-20 14:10:19,794 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-3] Read "application/json;charset=UTF-8" to [com.example.RestService.model.Person@f0a4c68]
+2020-07-20 14:10:19,810 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-8080-exec-3] Using @ExceptionHandler com.example.RestService.exception.ApiExceptionHandler#handleApiRequestException(ApiRequestException, WebRequest)
+2020-07-20 14:10:19,812 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-3] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 14:10:19,814 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-3] Writing [com.example.RestService.exception.ApiException@5cf69e64]
+2020-07-20 14:10:19,819 DEBUG org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-3] Resolved [com.example.RestService.exception.ApiRequestException: User 88 already exists in database]
+2020-07-20 14:10:19,822 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-3] Completed 400 BAD_REQUEST
+2020-07-20 14:10:55,464 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-5] GET "/api/v1/person/", parameters={}
+2020-07-20 14:10:55,467 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-5] Mapped to com.example.RestService.api.CarController#getAllPeople()
+2020-07-20 14:10:55,489 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-5] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 14:10:55,496 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-5] Writing [[com.example.RestService.model.Person@7866ed16, com.example.RestService.model.Person@76a10c6a, com.e (truncated)...]
+2020-07-20 14:10:55,503 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-5] Completed 302 FOUND
+2020-07-20 14:11:06,299 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-6] GET "/api/v1/person/88", parameters={}
+2020-07-20 14:11:06,305 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-6] Mapped to com.example.RestService.api.CarController#getPersonById(int)
+2020-07-20 14:11:06,376 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-6] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 14:11:06,377 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-6] Writing [com.example.RestService.model.Person@6c66be7b]
+2020-07-20 14:11:06,382 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-6] Completed 302 FOUND
+2020-07-20 14:11:10,693 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-8] GET "/api/v1/person/888", parameters={}
+2020-07-20 14:11:10,706 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-8] Mapped to com.example.RestService.api.CarController#getPersonById(int)
+2020-07-20 14:11:10,866 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-8080-exec-8] Using @ExceptionHandler com.example.RestService.exception.ApiExceptionHandler#handleApiRequestException(ApiRequestException, WebRequest)
+2020-07-20 14:11:10,868 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-8] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 14:11:10,869 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-8] Writing [com.example.RestService.exception.ApiException@10110df4]
+2020-07-20 14:11:10,875 DEBUG org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-8] Resolved [com.example.RestService.exception.ApiRequestException: User 888 not found in database]
+2020-07-20 14:11:10,889 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-8] Completed 400 BAD_REQUEST
+2020-07-20 14:11:22,130 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-7] PUT "/api/v1/person/updateRegistered/8824429", parameters={}
+2020-07-20 14:11:22,145 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-7] Mapped to com.example.RestService.api.CarController#updateRegisteredById(int, Person)
+2020-07-20 14:11:22,165 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-7] Read "application/json;charset=UTF-8" to [com.example.RestService.model.Person@71b31b44]
+2020-07-20 14:11:22,186 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-7] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 14:11:22,188 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-7] Nothing to write: null body
+2020-07-20 14:11:22,190 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-7] Completed 200 OK
+2020-07-20 14:11:24,004 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-10] PUT "/api/v1/person/updateRegistered/8824429", parameters={}
+2020-07-20 14:11:24,008 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-10] Mapped to com.example.RestService.api.CarController#updateRegisteredById(int, Person)
+2020-07-20 14:11:24,023 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-10] Read "application/json;charset=UTF-8" to [com.example.RestService.model.Person@5e07f73]
+2020-07-20 14:11:24,032 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-10] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 14:11:24,034 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-10] Nothing to write: null body
+2020-07-20 14:11:24,034 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-10] Completed 200 OK
+2020-07-20 14:12:31,675 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-3] PUT "/api/v1/person/updateRegistered/8824429", parameters={}
+2020-07-20 14:12:31,760 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-3] Mapped to com.example.RestService.api.CarController#updateRegisteredById(int, Person)
+2020-07-20 14:12:31,863 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-3] Read "application/json;charset=UTF-8" to [com.example.RestService.model.Person@3408282]
+2020-07-20 14:12:31,916 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-3] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 14:12:31,917 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-3] Nothing to write: null body
+2020-07-20 14:12:31,920 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-3] Completed 200 OK
+2020-07-20 14:16:44,756 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-6] PUT "/api/v1/person/updateCar/882442", parameters={}
+2020-07-20 14:16:44,841 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-6] Mapped to com.example.RestService.api.CarController#updateCarNumById(int, Person)
+2020-07-20 14:16:45,080 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-6] Read "application/json;charset=UTF-8" to [com.example.RestService.model.Person@4d05ef36]
+2020-07-20 14:16:45,188 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-8080-exec-6] Using @ExceptionHandler com.example.RestService.exception.ApiExceptionHandler#handleApiRequestException(ApiRequestException, WebRequest)
+2020-07-20 14:16:45,225 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-6] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 14:16:45,227 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-6] Writing [com.example.RestService.exception.ApiException@436a6462]
+2020-07-20 14:16:45,251 DEBUG org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-6] Resolved [com.example.RestService.exception.ApiRequestException: Car number KS7320 already is in database]
+2020-07-20 14:16:45,264 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-6] Completed 400 BAD_REQUEST
+2020-07-20 14:19:16,288 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-9] GET "/api/v1/person/", parameters={}
+2020-07-20 14:19:16,361 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-9] Mapped to com.example.RestService.api.CarController#getAllPeople()
+2020-07-20 14:19:16,596 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-9] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 14:19:16,599 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-9] Writing [[com.example.RestService.model.Person@44f3e3aa, com.example.RestService.model.Person@1f16550, com.ex (truncated)...]
+2020-07-20 14:19:16,624 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-9] Completed 302 FOUND
+2020-07-20 14:19:38,978 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-20 14:19:39,302 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-07-20 14:19:39,467 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [main] 8 mappings in 'requestMappingHandlerMapping'
+2020-07-20 14:19:39,575 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-07-20 14:19:39,620 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-07-20 14:19:42,613 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2020-07-20 14:19:42,615 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2] Detected StandardServletMultipartResolver
+2020-07-20 14:19:42,641 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-07-20 14:19:42,643 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 28 ms
+2020-07-20 14:19:42,674 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-2] PUT "/api/v1/person/updateCar/882442", parameters={}
+2020-07-20 14:19:42,688 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-2] Mapped to com.example.RestService.api.CarController#updateCarNumById(int, Person)
+2020-07-20 14:19:43,287 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-2] Read "application/json;charset=UTF-8" to [com.example.RestService.model.Person@2c1a4913]
+2020-07-20 14:19:43,343 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-8080-exec-2] Using @ExceptionHandler com.example.RestService.exception.ApiExceptionHandler#handleApiRequestException(ApiRequestException, WebRequest)
+2020-07-20 14:19:43,384 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-2] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 14:19:43,386 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-2] Writing [com.example.RestService.exception.ApiException@14b11d72]
+2020-07-20 14:19:43,414 DEBUG org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [com.example.RestService.exception.ApiRequestException: Car number KS7320 already is in database]
+2020-07-20 14:19:43,419 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-2] Completed 400 BAD_REQUEST
+2020-07-20 14:19:50,210 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-6] PUT "/api/v1/person/updateCar/8824429", parameters={}
+2020-07-20 14:19:50,213 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-6] Mapped to com.example.RestService.api.CarController#updateCarNumById(int, Person)
+2020-07-20 14:19:50,216 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-6] Read "application/json;charset=UTF-8" to [com.example.RestService.model.Person@2d26684f]
+2020-07-20 14:19:50,227 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-8080-exec-6] Using @ExceptionHandler com.example.RestService.exception.ApiExceptionHandler#handleApiRequestException(ApiRequestException, WebRequest)
+2020-07-20 14:19:50,229 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-6] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 14:19:50,230 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-6] Writing [com.example.RestService.exception.ApiException@27de033f]
+2020-07-20 14:19:50,235 DEBUG org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-6] Resolved [com.example.RestService.exception.ApiRequestException: Car number KS7320 already is in database]
+2020-07-20 14:19:50,237 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-6] Completed 400 BAD_REQUEST
+2020-07-20 14:19:57,934 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-10] PUT "/api/v1/person/updateCar/8824429", parameters={}
+2020-07-20 14:19:57,936 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-10] Mapped to com.example.RestService.api.CarController#updateCarNumById(int, Person)
+2020-07-20 14:19:57,940 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-10] Read "application/json;charset=UTF-8" to [com.example.RestService.model.Person@6cfe7093]
+2020-07-20 14:19:57,953 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-8080-exec-10] Using @ExceptionHandler com.example.RestService.exception.ApiExceptionHandler#handleApiRequestException(ApiRequestException, WebRequest)
+2020-07-20 14:19:57,955 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-10] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 14:19:57,956 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-10] Writing [com.example.RestService.exception.ApiException@66061be3]
+2020-07-20 14:19:57,960 DEBUG org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-10] Resolved [com.example.RestService.exception.ApiRequestException: User 8824429 not found in database]
+2020-07-20 14:19:57,961 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-10] Completed 400 BAD_REQUEST
+2020-07-20 14:20:05,178 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-4] GET "/api/v1/person/", parameters={}
+2020-07-20 14:20:05,184 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-4] Mapped to com.example.RestService.api.CarController#getAllPeople()
+2020-07-20 14:20:05,210 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-4] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 14:20:05,212 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-4] Writing [[com.example.RestService.model.Person@5c797e0a, com.example.RestService.model.Person@7a1dcb22, com.e (truncated)...]
+2020-07-20 14:20:05,230 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-4] Completed 302 FOUND
+2020-07-20 14:21:42,186 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-1] POST "/api/v1/person", parameters={}
+2020-07-20 14:21:42,249 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-1] Mapped to com.example.RestService.api.CarController#addPerson(Person)
+2020-07-20 14:21:42,427 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-1] Read "application/json;charset=UTF-8" to [com.example.RestService.model.Person@476caf8a]
+2020-07-20 14:21:42,653 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-8080-exec-1] Using @ExceptionHandler com.example.RestService.exception.ApiExceptionHandler#handleApiRequestException(ApiRequestException, WebRequest)
+2020-07-20 14:21:42,669 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-1] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 14:21:42,670 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-1] Writing [com.example.RestService.exception.ApiException@1d5f3693]
+2020-07-20 14:21:42,689 DEBUG org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8080-exec-1] Resolved [com.example.RestService.exception.ApiRequestException: User 88 already exists in database]
+2020-07-20 14:21:42,694 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed 400 BAD_REQUEST
+2020-07-20 14:37:16,656 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-20 14:37:16,897 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-07-20 14:37:17,026 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [main] 8 mappings in 'requestMappingHandlerMapping'
+2020-07-20 14:37:17,081 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-07-20 14:37:17,109 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-07-20 14:37:55,654 DEBUG org.springframework.context.support.AbstractApplicationContext [main] Refreshing org.springframework.web.context.support.GenericWebApplicationContext@2e54db99
+2020-07-20 14:38:00,385 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-20 14:38:01,100 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-07-20 14:38:01,308 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [main] 8 mappings in 'requestMappingHandlerMapping'
+2020-07-20 14:38:01,473 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-07-20 14:38:01,527 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-07-20 14:38:02,824 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [main] Mapped to com.example.RestService.api.CarController#getAllPeople()
+2020-07-20 14:38:03,498 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [main] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 14:38:03,501 DEBUG org.springframework.core.log.LogFormatUtils [main] Writing [[com.example.RestService.model.Person@4def42c3, com.example.RestService.model.Person@72110818, com.e (truncated)...]
+2020-07-20 14:38:03,728 DEBUG org.springframework.context.support.AbstractApplicationContext [SpringContextShutdownHook] Closing org.springframework.web.context.support.GenericWebApplicationContext@2e54db99, started on Mon Jul 20 14:37:55 EEST 2020
+2020-07-20 14:38:39,609 DEBUG org.springframework.context.support.AbstractApplicationContext [main] Refreshing org.springframework.web.context.support.GenericWebApplicationContext@74cadd41
+2020-07-20 14:38:48,080 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-20 14:38:49,230 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-07-20 14:38:49,516 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [main] 8 mappings in 'requestMappingHandlerMapping'
+2020-07-20 14:38:49,665 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-07-20 14:38:49,709 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-07-20 14:38:51,797 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [main] Mapped to com.example.RestService.api.CarController#getAllPeople()
+2020-07-20 14:38:53,288 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [main] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 14:38:53,293 DEBUG org.springframework.core.log.LogFormatUtils [main] Writing [[com.example.RestService.model.Person@2a7bc16b, com.example.RestService.model.Person@1186374c, com.e (truncated)...]
+2020-07-20 14:38:54,188 DEBUG org.springframework.context.support.AbstractApplicationContext [SpringContextShutdownHook] Closing org.springframework.web.context.support.GenericWebApplicationContext@74cadd41, started on Mon Jul 20 14:38:39 EEST 2020
+2020-07-20 14:38:56,415 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-20 14:38:56,723 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-07-20 14:38:56,886 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [main] 8 mappings in 'requestMappingHandlerMapping'
+2020-07-20 14:38:56,947 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-07-20 14:38:56,987 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-07-20 14:38:59,980 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-07-20 14:38:59,983 DEBUG org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Detected StandardServletMultipartResolver
+2020-07-20 14:38:59,998 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-07-20 14:39:00,000 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 18 ms
+2020-07-20 14:39:00,027 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-1] GET "/api/v1/person/", parameters={}
+2020-07-20 14:39:00,043 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [http-nio-8080-exec-1] Mapped to com.example.RestService.api.CarController#getAllPeople()
+2020-07-20 14:39:00,392 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [http-nio-8080-exec-1] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 14:39:00,395 DEBUG org.springframework.core.log.LogFormatUtils [http-nio-8080-exec-1] Writing [[com.example.RestService.model.Person@cb01988, com.example.RestService.model.Person@17e9c428, com.ex (truncated)...]
+2020-07-20 14:39:00,537 DEBUG org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed 302 FOUND
+2020-07-20 14:39:16,942 DEBUG org.springframework.context.support.AbstractApplicationContext [main] Refreshing org.springframework.web.context.support.GenericWebApplicationContext@458342d3
+2020-07-20 14:39:20,972 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-20 14:39:21,448 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-07-20 14:39:21,611 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [main] 8 mappings in 'requestMappingHandlerMapping'
+2020-07-20 14:39:21,757 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-07-20 14:39:21,791 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-07-20 14:39:22,756 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [main] Mapped to com.example.RestService.api.CarController#getAllPeople()
+2020-07-20 14:39:23,261 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [main] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 14:39:23,263 DEBUG org.springframework.core.log.LogFormatUtils [main] Writing [[com.example.RestService.model.Person@1d4cc7, com.example.RestService.model.Person@7d28cdcd, com.exa (truncated)...]
+2020-07-20 14:39:23,386 DEBUG org.springframework.context.support.AbstractApplicationContext [SpringContextShutdownHook] Closing org.springframework.web.context.support.GenericWebApplicationContext@458342d3, started on Mon Jul 20 14:39:16 EEST 2020
+2020-07-20 14:40:41,641 DEBUG org.springframework.context.support.AbstractApplicationContext [main] Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4f2613d1
+2020-07-20 14:40:46,475 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-20 14:40:47,031 DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-07-20 14:40:47,266 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMethodMapping [main] 8 mappings in 'requestMappingHandlerMapping'
+2020-07-20 14:40:47,381 DEBUG org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [main] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-07-20 14:40:47,417 DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [main] ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-07-20 14:40:48,490 DEBUG org.springframework.web.servlet.handler.AbstractHandlerMapping [main] Mapped to com.example.RestService.api.CarController#getAllPeople()
+2020-07-20 14:40:49,046 DEBUG org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor [main] Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-07-20 14:40:49,048 DEBUG org.springframework.core.log.LogFormatUtils [main] Writing [[com.example.RestService.model.Person@55fb36de, com.example.RestService.model.Person@63a7781, com.ex (truncated)...]
+2020-07-20 14:40:49,182 DEBUG org.springframework.context.support.AbstractApplicationContext [SpringContextShutdownHook] Closing org.springframework.web.context.support.GenericWebApplicationContext@4f2613d1, started on Mon Jul 20 14:40:41 EEST 2020
